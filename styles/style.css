@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap');
+
+body {
+    font-family: 'Montserrat';
+  }
+
+  #navbar li{
+    display:inline-block;
+  }
+  #navbar a{
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #1A1A1A;
+    padding: 10px;
+  }
+
+  .spotify-logo {
+      width: 167px;
+      height: 50px;
+      margin: 5px;
+
+  }
+
+  nav ul {
+    float: right;
+    color: #1A1A1A;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  div .text-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  div .centered-text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+  h2 {
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1.2rem;
+  }
+
+h3 {
+    font-size: 30px;
+    font-weight: 600; 
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 5px solid #00B172;
+    padding-bottom: 3px;
+}
+
+ .whats-on-spotify {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #00B172;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+#icons-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:row;
+    height: 600px;
+  }
+
+.icons{
+    width: 100px;
+}
+
+.second-section {
+    width: 250px;
+    text-align: center;
+}
+
+.third-section {
+    background-color: #00B172;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-left: 100px;
+}
+
+.white-letters h4 {
+    color: #fff;
+}
+
+#third-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:row;
+    height: 600px;
+  }
+
+
+  #kanye-west-img {
+    justify-content: right;
+    height: 460px;
+  }
+
+  #spotify-icon-white {
+    justify-content: center;
+    height: 100px;
+  }
+
+  .align-left {
+      text-align: left;
+      border-bottom: 5px solid #fff;
+  }
