@@ -71,7 +71,7 @@ h5 {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
-  height: 600px;
+  height: 380px;
 }
 
 div > h3 {
@@ -125,6 +125,11 @@ nav ul {
 
 #navbar li{
   display:inline-block;
+}
+
+.one-third {
+  text-align: center;
+  width: 250px;
 }
 
 p {
