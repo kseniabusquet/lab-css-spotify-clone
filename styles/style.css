@@ -11,6 +11,10 @@ White: #FFF
 body {
     font-family: 'Montserrat';
   }
+header {
+  position: fixed;
+  top: 0;
+}
 
   #navbar li{
     display:inline-block;
@@ -41,6 +45,10 @@ body {
     position: relative;
     text-align: center;
     color: white;
+  }
+
+  .text-container img{
+    margin-top: 50px;
   }
 
   div .centered-text {
